@@ -1,0 +1,154 @@
+$ git init
+Initialized empty Git repository in /home/ccuser/workspace/manhattan-zoo-1/.git/
+$ git status
+On branch master
+
+Initial commit
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        meal-regimens.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+$ git add meal-regimens.txt
+$ git status
+On branch master
+
+Initial commit
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+        new file:   meal-regimens.txt
+
+$ git commit -m 'Meal regimen stock and time'
+[master (root-commit) 74dc775] Meal regimen stock and time
+ 1 file changed, 14 insertions(+)
+ create mode 100644 meal-regimens.txt
+$ git add meal-regimens.txt
+$ git status
+On branch master
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        modified:   meal-regimens.txt
+
+$ git commit -m 'Meal regimen stock update wth long-tailed chinchillas'
+[master a5d95c5] Meal regimen stock update wth long-tailed chinchillas
+ 1 file changed, 4 insertions(+), 1 deletion(-)
+$ git log
+commit a5d95c5db94444669dfadce5146db0172bad1af2
+Author: codecademy <ccuser@codecademy.com>
+Date:   Wed Feb 2 01:29:20 2022 +0000
+
+    Meal regimen stock update wth long-tailed chinchillas
+
+commit 74dc775a196db3de52a9c3f7a58468af3730742f
+Author: codecademy <ccuser@codecademy.com>
+Date:   Wed Feb 2 01:27:00 2022 +0000
+
+    Meal regimen stock and time
+$ git add meal_regimens.txt
+fatal: pathspec 'meal_regimens.txt' did not match any files
+$ git commit -m 'poison dart frogs'
+On branch master
+Changes not staged for commit:
+        modified:   meal-regimens.txt
+
+no changes added to commit
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   meal-regimens.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git log
+commit a5d95c5db94444669dfadce5146db0172bad1af2
+Author: codecademy <ccuser@codecademy.com>
+Date:   Wed Feb 2 01:29:20 2022 +0000
+
+    Meal regimen stock update wth long-tailed chinchillas
+
+commit 74dc775a196db3de52a9c3f7a58468af3730742f
+Author: codecademy <ccuser@codecademy.com>
+Date:   Wed Feb 2 01:27:00 2022 +0000
+
+$ git add meal-regimens.txt
+$ git status
+On branch master
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        modified:   meal-regimens.txt
+
+$ git status
+On branch master
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        modified:   meal-regimens.txt
+
+$ git log
+commit a5d95c5db94444669dfadce5146db0172bad1af2
+Author: codecademy <ccuser@codecademy.com>
+Date:   Wed Feb 2 01:29:20 2022 +0000
+
+    Meal regimen stock update wth long-tailed chinchillas
+
+commit 74dc775a196db3de52a9c3f7a58468af3730742f
+Author: codecademy <ccuser@codecademy.com>
+Date:   Wed Feb 2 01:27:00 2022 +0000
+
+$ git commit -m 'Poison Dart Frogs'
+[master 069b33f] Poison Dart Frogs
+ 1 file changed, 5 insertions(+)
+$ git log
+commit 069b33f09851e0b2d142d8472211136711912737
+Author: codecademy <ccuser@codecademy.com>
+Date:   Wed Feb 2 01:35:47 2022 +0000
+
+    Poison Dart Frogs
+
+commit a5d95c5db94444669dfadce5146db0172bad1af2
+Author: codecademy <ccuser@codecademy.com>
+Date:   Wed Feb 2 01:29:20 2022 +0000
+
+    Meal regimen stock update wth long-ta$ git status
+On branch master
+nothing to commit, working directory clean
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   meal-regimens.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git add meal-regimens.txt
+$ git status
+On branch master
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        modified:   meal-regimens.txt
+
+$ git commit -m 'Western Lowland Gorilla'[master 2fe0a3d] Western Lowland Gorilla
+ 1 file changed, 5 insertions(+)
+$ git log
+commit 2fe0a3d7efe8d7b614af1fc57c267c3a5f8aa46f
+Author: codecademy <ccuser@codecademy.com>
+Date:   Wed Feb 2 01:37:42 2022 +0000
+
+    Western Lowland Gorilla
+
+commit 069b33f09851e0b2d142d8472211136711912737
+Author: codecademy <ccuser@codecademy.com>
+Date:   Wed Feb 2 01:35:47 2022 +0000
+
+    Poison Dart Frogs
+:
